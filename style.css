@@ -43,8 +43,24 @@ body
     content: '';
     position: absolute;
     top: -50px;
+    left: 40px;
     width: 110px;
     height: 110px;
     border-radius: 50%;
+    background-color:white;
+    box-shadow: 90px 0 0 30px white;
+}
+
+.text 
+{
+    position: absolute;
+    height: 20px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: rgb(9, 9, 9);
+    text-shadow: 0 0 5px white,
+    0 0 15px white,
+    0 0 30px white;
+    transform-origin: bottom;
 
 }
