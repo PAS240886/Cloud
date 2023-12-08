@@ -55,12 +55,30 @@ body
 {
     position: absolute;
     height: 20px;
+    top: 75px;
     line-height: 20px;
     text-transform: uppercase;
-    color: rgb(9, 9, 9);
+    color: rgb(255, 255, 255);
     text-shadow: 0 0 5px white,
     0 0 15px white,
     0 0 30px white;
     transform-origin: bottom;
+    animation: animate 2s linear forwards;
 
 }
+@keyframes animate 
+    {
+        0%
+        {
+            transform: translateY(0) scale(1);
+        }
+        70%
+        {
+            transform: translateY(290px) scale(1);
+        }
+        100%
+        {
+            transform: translateY(290px) scale(0);
+        }
+
+    }
